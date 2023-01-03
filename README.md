@@ -9,6 +9,7 @@
   
   -HTML<br>
   -CSS<br>
+  -Javascript<br>
   
   O layout do site foi pego na internet, achei bonito e legal para usar em meu portifólio.
   
