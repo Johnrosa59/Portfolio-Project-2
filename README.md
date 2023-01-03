@@ -26,6 +26,6 @@
 <br>
 Versão Mobile do site:
 
-<img src="[https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README4.png](https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README-Mobile.png)">
-<img src="[https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README4.png](https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README-Mobile-2.png)">
-<img src="[https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README4.png](https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README-Mobile-3.png)">
+<img src="https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README-Mobile.png">
+<img src="https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README-Mobile-2.png">
+<img src="https://github.com/Johnrosa59/Portfolio-Project-2/blob/master/img/README-Mobile-3.png">
