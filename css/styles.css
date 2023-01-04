@@ -266,7 +266,7 @@ footer p {
 
     #other-color-projects {
         position: absolute;
-        margin-top: 970px;
+        margin-top: 930px;
         width: 413px;
         height: 500px;
         margin-left: 0;
@@ -275,7 +275,7 @@ footer p {
     #card1 {
         width: 380px;
         height: 200px;
-        margin-left: 0;
+        margin-left: 10px;
     }
 
     #sites-img {
