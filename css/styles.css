@@ -281,9 +281,9 @@ footer p {
     #sites-img {
         width: 300px;
         height: 200px;
-        margin-left: 40px;
+        margin-left: 42px;
         margin-top: 25px;
-        background-color: transparent;
+        border-radius: 20px;
     }
 
     button {
@@ -293,7 +293,7 @@ footer p {
 
     #buttons {
         margin-left: 70px;
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     #title-projects {
@@ -301,11 +301,15 @@ footer p {
     }
 
     #fale-comigo {
-        margin-top: 1500px;
+        margin-top: 1400px;
     }
 
     .social a:hover {
         transform: none;
         transition: none;
+    }
+
+    #link1 {
+        background-color: transparent;
     }
 }
