@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 67px;
+
+    color: #FF8303;
+}
+
+.links {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #F0E3CA;
+    margin-left: 50px;
+}
+
+.links:hover {
+    color: #FF8303;
+
+}
+
+.links:active {
+    opacity: 0.7;
+}
+
+.links-header {
+    margin-left: 900px;
+    margin-top: -50px;
+}
+
+.title-dev {
+    margin-top: -30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 10px;
+    color: #F0E3CA;
+}
+
+#block-home {
+    display: inline-block;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+#block-img {
+    display: inline-block;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+#img-background {
+    width: 600px;
+    height: 600px;
+}
+
+#div-other-color {
+    background-color: #191919;
+    display: inline-block;
+    width: 100%;
+    height: 710px;
+}
+
+.portfolio-text-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FF8303;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+span {
+    color: white;
+    display: inline-block;
+}
+
+
+#img-perfil-block {
+    display: inline-block;
+    margin-left: 60px;
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+}
+
+#title-about {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#text-about {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e2b9c6;
+    font-size: 24px;
+    width: 400px;
+    height: 400px;
+}
+
+#block-texts-left {
+    display: inline-block;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+#other-color-projects {
+    width: 100%;
+    height: 600px;
+    background-color: #191919;
+}
+
+#card1 {
+    margin-top: 60px;
+    margin-left: 430px;
+    background-color: rgb(174, 176, 179);
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#sites-img {
+    width: 600px;
+    height: 400px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: #FF8303 solid 1px;
+}
+
+#buttons {
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 650px;
+}
+
+#title-projects {
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+footer {
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 24px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color: #f9004d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:413px) {
+    * {
+        background-color: black;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .links-header {
+        display: block;
+        margin-left: -30px;
+        margin-top: 30px;
+    }
+
+    .links {
+        display: block;
+    }
+
+    #block-img {
+        display: none;
+    }
+
+    #block-home {
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 413px;
+        height: 200px;
+    }
+
+    .title-home {
+        margin-top: 50px;
+    }
+
+
+    #about {
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -300px;
+        background-color: #000;
+    }
+
+    #block-texts-left {
+        margin-left: -390px;
+        margin-top: 400px;
+    }
+
+    #other-color-projects {
+        position: absolute;
+        margin-top: 930px;
+        width: 413px;
+        height: 500px;
+        margin-left: 0;
+    }
+
+    #card1 {
+        width: 380px;
+        height: 250px;
+        margin-left: 10px;
+    }
+
+    #sites-img {
+        width: 300px;
+        height: 200px;
+        margin-left: 42px;
+        margin-top: 25px;
+        border-radius: 20px;
+    }
+
+    button {
+        margin-left: 0;
+        background-color: white;
+    }
+
+    #buttons {
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    #title-projects {
+        margin-left: -30px;
+    }
+
+    #fale-comigo {
+        margin-top: 1400px;
+    }
+
+    .social a:hover {
+        transform: none;
+        transition: none;
+    }
+
+    #link1 {
+        background-color: transparent;
+    }
+}
