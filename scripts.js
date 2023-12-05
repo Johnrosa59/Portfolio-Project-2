@@ -15,8 +15,8 @@ const changeImgLink1 = () => {
 };
 
 const changeImgLink2 = () => {
-  siteImg.src = "./img/1-site-1.png";
-  link1.href = "https://johnrosa59.github.io/Projeto-Shopping-Mobile/";
+  siteImg.src = "./img/cep-project.png";
+  link1.href = "https://johnrosa59.github.io/Project-Cep/";
 };
 
 const changeImgLink3 = () => {
