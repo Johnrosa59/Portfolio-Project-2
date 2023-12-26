@@ -10,7 +10,7 @@ const buttonSeven = document.getElementById("button-7");
 const buttonEight = document.getElementById("button-8");
 
 const changeImgLink1 = () => {
-  siteImg.src = "./img/2-site-2.png";
+  siteImg.src = "./img/black-site.png";
   link1.href = "https://johnrosa59.github.io/Projeto-page-green/";
 };
 
