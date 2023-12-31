@@ -41,6 +41,7 @@ h1 {
 .links-header {
     margin-left: 900px;
     margin-top: -50px;
+    display: inline-block;
 }
 
 .title-dev {
@@ -86,7 +87,7 @@ h1 {
     text-align: center;
     color: #FF8303;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 span {
