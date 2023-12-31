@@ -20,8 +20,8 @@ const changeImgLink2 = () => {
 };
 
 const changeImgLink3 = () => {
-  siteImg.src = "./img/3-site-3.png";
-  link1.href = "https://johnrosa59.github.io/We-Care-Project/";
+  siteImg.src = "./img/genio.png";
+  link1.href = "https://johnrosa59.github.io/Genio-Sorteador/";
 };
 
 const changeImgLink4 = () => {
